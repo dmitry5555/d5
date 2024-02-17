@@ -671,6 +671,11 @@ video {
   margin-right: 2rem;
 }
 
+.mx-5 {
+  margin-left: 1.25rem;
+  margin-right: 1.25rem;
+}
+
 .-mb-0 {
   margin-bottom: -0px;
 }
@@ -1127,6 +1132,10 @@ video {
 
 .overflow-scroll {
   overflow: scroll;
+}
+
+.text-ellipsis {
+  text-overflow: ellipsis;
 }
 
 .whitespace-nowrap {
@@ -1719,6 +1728,10 @@ video {
 
   .sm\:rounded-\[2\.5rem\] {
     border-radius: 2.5rem;
+  }
+
+  .sm\:rounded-\[2rem\] {
+    border-radius: 2rem;
   }
 
   .sm\:p-12 {
