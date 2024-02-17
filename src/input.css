@@ -20,6 +20,12 @@
 	src: url("./65.otf");
 }
 
+@layer utilities {
+    .bg-dynamic {
+      background-image: url('../img/photo2.png');
+    }
+}
+
 .nowrap {
 	white-space: nowrap;
 }

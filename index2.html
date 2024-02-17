@@ -20,6 +20,45 @@
 
 	<div class="px-4">
 
+
+		<div class="mx-auto max-w-screen-xl flex flex-row my-4">
+			<div>
+				<a href="#"><img class="w-32 mt-1" src="./img/logo.png" alt=""></a>
+			</div>
+			<div class="ml-auto flex">
+				<div class="hidden lg:flex font-light gap-6 mr-3">
+					<a href="#" class="px-5 py-0.5 rounded-3xl border border-gray">Курсы</a>
+					<a href="#"  class="px-5 py-0.5 rounded-3xl border border-gray">Аналитика</a>
+					<a href="#"  class="px-5 py-0.5 rounded-3xl border border-gray">Разработка</a>
+					<a href="#"  class="px-5 py-0.5 rounded-3xl border border-gray">О нас</a>
+					<a href="#"  class="px-5 py-0.5 rounded-3xl border border-gray">Контакты</a>
+				</div>
+				<div class="flex">
+					<div class="mx-3 bg-blue text-white text-sm font-light py-1 px-3 rounded-2xl flex">
+						<div class="flex flex-wrap">
+							<div class="">
+								<div class="py-0.5">RU</div>
+								<!-- <div>EN</div> -->
+							</div>
+							<div class="ml-2 w-3 flex">
+								<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+								<path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+								</svg>
+							</div>
+						</div>
+					</div>
+					<div class="ml-2 sm:hidden flex pt-0.5 top-menu-toggle">
+						<a href="#">
+							<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+								<path stroke-linecap="round" stroke-linejoin="round" d="M3.75 9h16.5m-16.5 6.75h16.5" />
+							</svg>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		
 		<div class="mx-auto max-w-screen-xl mb-8 bg-blue rounded-3xl sm:rounded-[2.5rem] py-2 lg:px-4">
 				<div class="px-6 sm:px-10 pt-6 sm:pt-10 flex flex-col pb-0 ">
 					<div class="mb-4 font-light text-sm text-black flex">Главная / <span class="text-white ml-2">Курсы</span></div>
@@ -171,18 +210,18 @@
 			</div>
 		</div>
 
-		<div class="mx-auto max-w-screen-xl flex flex-col md:flex-row gap-6 my-8">
-			<div class="text-2xl sm:text-3xl w-full">
+		<div class="mx-auto max-w-screen-xl flex flex-col md:flex-row gap-6 my-8 md:py-8">
+			<div class="text-2xl md:text-4xl w-full">
 				Как устроен процесс обучения?
 			</div>
-			<div class="w-full font-light text-sm">
+			<div class="w-full font-light text-sm md:text-xl">
 				Во время обучения вы будете обучаться в небольших группах, на протяжении всего обучения кураторы и преподаватели будут поддерживать вас в чатах, а так же платформа с записями и материалами будет доступна даже после окончания обучения. Это сделано для того, что бы наши ученики могли обновлять знания даже после того, как закончили обучение. Так же во время обучения мы стремимся дать большое количество практики, что бы никакие подводные камни не представляли трудности для наших студентов
 			</div>
 		</div>
 
-		<div class="mx-auto flex flex-col -ml-4 -mr-4  my-8 uppercase whitespace-nowrap overflow-hidden text-center text-base md:text-xl">
-			<div class="py-2 bg-black-light text-white  mb-4"> Чаты с преподавателями и кураторами  <span class="-mb-0.5 w-4 h-4 mx-4 inline-block bg-gray rounded-3xl"></span> Работа в небольших группах</div>
-			<div class="py-2 bg-blue text-white "> Личные консультации <span class="-mb-0.5 w-4 h-4 mx-4 inline-block bg-gray rounded-3xl"></span> Платформа с записями и материалами</div>
+		<div class="mx-auto flex flex-col -ml-4 -mr-4  my-8 md:mb-24 uppercase whitespace-nowrap overflow-hidden text-center text-base md:text-2xl">
+			<div class="py-2 bg-black-light text-white  mb-4"> Чаты с преподавателями и кураторами  <span class="-mb-0.5  md:mb-0 w-4 h-4 mx-4 inline-block bg-gray rounded-3xl"></span> Работа в небольших группах</div>
+			<div class="py-2 bg-blue text-white "> Личные консультации <span class="-mb-0.5 md:mb-0 w-4 h-4 mx-4 inline-block bg-gray rounded-3xl"></span> Платформа с записями и материалами</div>
 		</div>
 
 		<div class="flex flex-col mx-auto max-w-screen-xl ">
@@ -196,10 +235,8 @@
 						<div class="w-full  p-3.5 mx-auto border border-gray bg-white rounded-2xl ">Скидки</div>
 					</div>
 					<div class="flex flex-col w-full ">
-						<div class=" flex font-light bg-red-200 px-4 py-3 w-full rounded-2xl h-full relative overflow-hidden">
-							<img src="./img/photo2.png" alt="" class="absolute inset-0 w-full h-full object-cover" />
-							<div class="text-right pl-8 min-h-64 flex items-end justify-end md:p-6 text-xs">Мы даем обширную базу знаний, которой можно пользоваться даже после окончания обучения</div>
-
+						<div class=" flex font-light bg-dynamic bg-cover bg-center px-4 py-3 w-full rounded-2xl h-full relative overflow-hidden">
+							<div class="text-right pl-8 min-h-64 flex items-end justify-end md:p-6 md:text-2xl ">Мы даем обширную  знаний, которой можно пользоваться даже после окончания обучения</div>
 						</div>
 					</div>
 				</div>
@@ -240,7 +277,7 @@
 		</div>
 
 
-		<div class="flex flex-col mx-auto gap-4 text-white max-w-screen-xl">
+		<div class="flex flex-col mx-auto gap-4 text-white max-w-screen-xl mb-12 md:mb-24">
 			
 			<div class="rounded-3xl bg-blue2 p-4 flex flex-col md:flex-row md:p-8">
 				
@@ -251,10 +288,10 @@
 
 				<div class="flex flex-col my-4 mx-4 md:w-1/3 rounded-2xl ">
 					<div class="w-full   flex flex-col  mb-6 overflow-hidden rounded-2xl">
-						<div class="h-28 text-center  "><img class="" src="./img/photo.png" alt=""></div>
+						<div class="h-28 md:h-40 text-center  "><img class="" src="./img/photo.png" alt=""></div>
 						<div class="py-3 bg-white text-black text-center rounded-2xl">
 							<div class="text-xl mb-2">Максимов Павел</div>
-							<div class="text-sm text-gray2 font-light">Специалист по блокчейн-технологиям</div>
+							<div class="text-sm text-gray2 font-light px-4">Специалист по блокчейн-технологиям</div>
 						</div>
 					</div>
 
@@ -269,6 +306,31 @@
 				</div>
 		</div>
 
+	</div>
+
+	<div class="flex flex-col mx-auto max-w-screen-xl ">
+		<div class="flex flex-col gap-4">
+			<div class="text-2xl md:text-4xl mb-4">Ответы на вопросы</div>
+			<div class="flex flex-col lg:flex-row gap-6 ">
+				<div class="flex flex-col gap-4 mb-4 md:mb-0 text-xl text-center w-full md:text-2xl font-light ">
+					<div class="w-full py-4 px-12 mx-auto border text-white bg-blue rounded-2xl ">Стоимость биткоина полностью продиктована свободным рынком?</div>
+					<div class="w-full p-4 px-12 mx-auto border border-gray bg-white rounded-2xl ">Нетворкинг</div>
+					<div class="w-full p-4 px-12 mx-auto border border-gray bg-white rounded-2xl ">Сертификат</div>
+					<div class="w-full p-4 px-12 mx-auto border border-gray bg-white rounded-2xl ">Скидки</div>
+				</div>
+				<div class="flex flex-col w-full min-h-52  gap-4 p-4 md:p-10 mx-auto border border-gray bg-white rounded-2xl font-light">
+					<div class="flex text-sm md:text-lg">
+						“По большей части, да. Существует известное и ограниченное количество биткоинов, поэтому при росте спроса растет и цена. Инновационность технологии также способствует ценности биткоина. Созданный в 2009 году, он стал новинкой, и рынок постановил, что это стоящее (на данный момент) изобретение.”
+					</div>
+					<div class="mt-auto text-right">
+						<div class="mb-2 text-lg">Максимов Павел</div>
+						<div class="text-sm">Специалист по блокчейн-технологиям</div>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+		
 	</div>
 
 	<script>
