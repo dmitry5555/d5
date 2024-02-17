@@ -20,6 +20,7 @@ module.exports = {
 			'blue-light2': '#DDE9F5', //
 			'blue-light3': '#AEC8E4',
 			'blue-light4': '#DAE8F7',
+			'blue-light5': '#F3F6FA',
 			'gray-light': '#F7F8F8',
 			'gray': '#D0D4D8', // arrows bg
 			'gray2': '#777777', // font
