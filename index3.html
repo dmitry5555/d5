@@ -257,32 +257,127 @@
 <!-- ВЫБЕРИ ТАРИФ -->
 
 		<div class="mx-auto max-w-screen-xl mb-8 rounded-3xl sm:rounded-[2.5rem] py-2 lg:px-4 flex flex-col">
-			<div class="flex flex-row md:hidden">
-				<div class="w-full">Базовый</div>
-				<div class="w-full">Оптимальный</div>
-				<div class="w-full">VIP</div>
+			<div class="flex-row md:hidden flex gap-4 text-center text-white font-light  mb-4">
+				<div class="w-full bg-blue py-1 px-2 rounded-3xl">Базовый</div>
+				<div class="w-full text-black py-1 px-2 rounded-3xl border">Оптимальный</div>
+				<div class="w-full text-black py-1 px-2 rounded-3xl border">VIP</div>
 			</div>
-			<div class="border max-w-96 border-gray rounded-4xl px-8 py-8 bg-white flex flex-col">
-				<div>Базовый</div>
-				<div>Все навыки профессии</div>
-				<div>Полноценный курс с поддержкой куратора при обучении</div>
-				<div>Стажировка</div>
-				<div>Гарантия трудоустройства</div>
-				<div class="flex flex-row">
-					<div class="w-full">
-						<div>5 900 ₽/мес.</div>
-						<div>5 900 ₽/мес.</div>
+
+			<!-- ТАРИФЫ -->
+			<div class="flex flex-row gap-4 items-center">
+				<!-- БАЗОВЫЙ -->
+				<div class="hidden lg:flex border max-w-96 border-gray rounded-3xl px-8 py-8 bg-white  flex-col gap-4 font-light text-lg ">
+					<div class="ml-8 text-2xl font-normal">Базовый</div>
+					<div class="flex flex-row">
+						<img class="align-top h-6 w-auto mr-3 flex self-center" src="./img/check.png" alt="">
+						<div>Полноценный курс с поддержкой куратора при обучении</div>
 					</div>
-					<div class="flex flex-col w-full">
-						<div class="w-full">30%</div>
-						<div class="w-full">Скидка</div>
+
+					<div class="flex flex-row">
+						<img class="align-top h-6 w-auto mr-3 flex self-center" src="./img/check.png" alt="">
+						<div>Все навыки профессии</div>
 					</div>
+					<div class="flex flex-row">
+						<img class="align-top h-6 w-auto mr-3 flex self-center" src="./img/check.png" alt="">
+						<div>Стажировка</div>
+					</div>
+					<div class="flex flex-row">
+						<img class="align-top h-6 w-auto mr-3 flex self-center" src="./img/check.png" alt="">
+						<div>Гарантия трудоустройства</div>
+					</div>
+
+					<div class="flex flex-row font-normal justify-center">
+						<div class="w-full justify-center flex flex-col">
+							<div class="text-gray2 mb-2">5 900 ₽/мес.</div>
+							<div class="text-2xl">5 900 ₽/мес.</div>
+						</div>
+						<div class="max-w-24 flex flex-col w-full bg-yellow-400 rotate-12 rounded-full mx-auto my-auto aspect-square justify-center">
+							<div class="w-full text-center text-2xl font-bold ">30%</div>
+							<div class="w-full text-center text-xl font-light -mt-1">Скидка</div>
+						</div>
+					</div>
+					<div class="text-gray mb-6">При рассрочке на 36 месяцев</div>
+					<div class="flex mb-4 mx-auto text-center rounded-3xl bg-blue text-white px-14 py-2  font-light">Выбрать базовый тариф</div>
 				</div>
-				<div>При рассрочке на 36 месяцев</div>
-				<div>Выбрать базовый тариф</div>
 
+				<!-- ОПТИМА -->
 
+				<div class="border max-w-100  rounded-3xl px-8 py-8 bg-black-light text-white flex flex-col gap-4 font-light text-lg mx-auto ">
+					<div class="ml-8 text-2xl font-normal">Оптимальный</div>
+					<div class="flex flex-row">
+						<img class="align-top h-6 w-auto mr-3 flex self-center" src="./img/check.png" alt="">
+						<div>Полноценный курс с поддержкой куратора при обучении</div>
+					</div>
+					<div class="flex flex-row">
+						<img class="align-top h-6 w-auto mr-3 flex self-center" src="./img/check.png" alt="">
+						<div>Полноценный курс с поддержкой куратора при обучении</div>
+					</div>
+					<div class="flex flex-row">
+						<img class="align-top h-6 w-auto mr-3 flex self-center" src="./img/check.png" alt="">
+						<div>Полноценный курс с поддержкой куратора при обучении</div>
+					</div>
+					<div class="flex flex-row">
+						<img class="align-top h-6 w-auto mr-3 flex self-center" src="./img/check.png" alt="">
+						<div>Все навыки профессии</div>
+					</div>
+					<div class="flex flex-row">
+						<img class="align-top h-6 w-auto mr-3 flex self-center" src="./img/check.png" alt="">
+						<div>Стажировка</div>
+					</div>
+					<div class="flex flex-row">
+						<img class="align-top h-6 w-auto mr-3 flex self-center" src="./img/check.png" alt="">
+						<div>Гарантия трудоустройства</div>
+					</div>
+
+					<div class="flex flex-row font-normal justify-center">
+						<div class="w-full justify-center flex flex-col">
+							<div class="text-gray2 mb-2">5 900 ₽/мес.</div>
+							<div class="text-2xl">5 900 ₽/мес.</div>
+						</div>
+						<div class="max-w-24 flex flex-col w-full bg-yellow-400 rotate-12 rounded-full mx-auto my-auto aspect-square justify-center text-black">
+							<div class="w-full text-center text-2xl font-bold ">30%</div>
+							<div class="w-full text-center text-xl font-light -mt-1">Скидка</div>
+						</div>
+					</div>
+					<div class="text-gray mb-6">При рассрочке на 36 месяцев</div>
+					<div class="flex mb-4 mx-auto text-center rounded-3xl bg-blue text-white px-14 py-2  font-light">Выбрать базовый тариф</div>
+				</div>
+				<!-- VIP -->
+
+				<div class="hidden lg:flex border max-w-96 border-gray rounded-3xl px-8 py-8 bg-white  flex-col gap-4 font-light text-lg">
+					<div class="ml-8 text-2xl font-normal">VIP</div>
+					<div class="flex flex-row">
+						<img class="align-top h-6 w-auto mr-3 flex self-center" src="./img/check.png" alt="">
+						<div>Полноценный курс с поддержкой куратора при обучении</div>
+					</div>
+					<div class="flex flex-row">
+						<img class="align-top h-6 w-auto mr-3 flex self-center" src="./img/check.png" alt="">
+						<div>Все навыки профессии</div>
+					</div>
+					<div class="flex flex-row">
+						<img class="align-top h-6 w-auto mr-3 flex self-center" src="./img/check.png" alt="">
+						<div>Стажировка</div>
+					</div>
+					<div class="flex flex-row">
+						<img class="align-top h-6 w-auto mr-3 flex self-center" src="./img/check.png" alt="">
+						<div>Гарантия трудоустройства</div>
+					</div>
+
+					<div class="flex flex-row font-normal justify-center">
+						<div class="w-full justify-center flex flex-col">
+							<div class="text-gray2 mb-2">5 900 ₽/мес.</div>
+							<div class="text-2xl">5 900 ₽/мес.</div>
+						</div>
+						<div class="max-w-24 flex flex-col w-full bg-yellow-400 rotate-12 rounded-full mx-auto my-auto aspect-square justify-center">
+							<div class="w-full text-center text-2xl font-bold ">30%</div>
+							<div class="w-full text-center text-xl font-light -mt-1">Скидка</div>
+						</div>
+					</div>
+					<div class="text-gray mb-6">При рассрочке на 36 месяцев</div>
+					<div class="flex mb-4 mx-auto text-center rounded-3xl bg-blue text-white px-14 py-2  font-light">Выбрать базовый тариф</div>
+				</div>
 			</div>
+
 		</div>
 
 <!-- FOOTER -->
