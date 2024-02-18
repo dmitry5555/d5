@@ -5,7 +5,6 @@ module.exports = {
   theme: {
     extend: {
 		fontFamily: {
-			// SpaceGrotesk: ["Space Grotesk"],
 			futura: ['"FuturaPt"', "sans-serif"],
 			sans: ["FuturaPt"],
 		},
