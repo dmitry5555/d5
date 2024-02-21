@@ -125,8 +125,11 @@
 			<div class="mr-2 mb-12">
 				<div class="absolute bg-blue-light3 w-full h-full top-8 left-1 -z-10 rounded-3xl">
 				</div>
-				<div class=" w-full h-full bg-blue-light2 rounded-3xl sm:rounded-[2.5rem] z-10 flex">
-					<div class="p-6 sm:px-10 sm:py-8 flex flex-col md:flex-row">
+				<div class=" w-full h-full bg-blue-light2 rounded-3xl sm:rounded-[2.5rem] z-10 flex relative">
+					<div class="p-6 sm:px-10 sm:py-8 flex flex-col md:flex-row relative">
+						<div class="absolute -bottom-6 left-0 w-72 md:flex hidden">
+							<img class="" src="./img/im4.png" alt="">
+						</div>
 
 						<div class=" text-2xl sm:text-3xl font-bold mb-8 md:w-5/12 pr-4 text-black-light">
 							Помогаем сделать <span class="text-blue">первые шаги</span> в криптопространство
@@ -153,6 +156,10 @@
 									<div class="text-sm font-light md:text-lg">Для тех, кто хочет освоить новые финансовые инструменты</div>
 								</div>
 							</div>
+						</div>
+
+						<div class="flex md:hidden -mb-9 mt-4">
+							<img class="w-44" src="./img/im4.png" alt="">
 						</div>
 
 					</div>
@@ -214,17 +221,17 @@
 
 <!-- БЕСПЛАТНЫЕ КУРСЫ -->
 
-		<div class="mx-auto max-w-screen-2xl bg-black-light rounded-3xl my-12">
+		<div class="mx-auto max-w-screen-2xl bg-black-light rounded-3xl my-12 md:py-8">
 			<div class="py-4 mx-auto max-w-screen-xl">
 
 				<div class="flex flex-col text-white text-center px-8 gap-4 py-4">
-					<div class="text-2xl ">Учебные программы</div>
+					<div class="text-2xl md:text-3xl">Бесплатные курсы и материалы</div>
 					<div class="text-base font-light mb-4">Наша команда готова помочь освоить профессию и получить новые навыки с нуля. Наша команда готова помочь освоить профессию и получить новые навыки с нуля</div>
 				</div>
 
 				<div class="flex flex-col md:flex-row gap-6 ">
 
-					<div class="flex md:flex-row flex-col bg-white rounded-2xl px-8 py-6 max-w-96 mx-auto">
+					<div class="flex flex-col bg-white rounded-2xl px-8 py-6 max-w-96 mx-auto">
 
 						<div class=" flex flex-row">
 
@@ -374,9 +381,9 @@
 
 <!-- ОТВНТЫ НА ВОПРОСЫ -->
 
-	<div class="flex flex-col mx-auto max-w-screen-xl ">
+	<div class="flex flex-col mx-auto max-w-screen-xl mb-20">
 		<div class="flex flex-col gap-4">
-			<div class="text-2xl md:text-4xl mb-4">Ответы на вопросы</div>
+			<div class="text-2xl md:text-4xl mb-8">Ответы на вопросы</div>
 			<div class="flex flex-col lg:flex-row gap-6 ">
 				<div class="flex flex-col gap-4 mb-4 md:mb-0 text-xl text-center w-full md:text-2xl font-light ">
 					<div class="w-full py-4 px-12 mx-auto border text-white bg-blue rounded-2xl ">Стоимость биткоина полностью продиктована свободным рынком?</div>
@@ -393,6 +400,84 @@
 						<div class="text-sm">Специалист по блокчейн-технологиям</div>
 					</div>
 
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+
+
+<!-- ХОТИТЕ РАБОТАТЬ -->
+
+		<div class="bg-black-light -mx-4 flex flex-col px-4">
+
+			<div class="mx-auto max-w-screen-xl ">
+				<div class="max-w-4xl mx-auto rounded-3xl bg-white sm:rounded-[2.5rem] p-8 mt-10 md:mt-20 mb-20">
+					<div class="text-2xl font-bold sm:text-3xl mb-2 text-center sm:text-left">
+						Хотите работать с нами? Хотите обучаться у нас?
+					</div>
+					<div class="text-sm md:text-base mb-4 ">Оставьте свои контакты и мы бесплатно проконсультируем вас по любому вопросу в течении рабочего дня</div>
+					<form action="" class="">
+						<div class="flex flex-col sm:flex-row gap-4">
+							<div class="w-full">
+								<div class="font-light mb-1">Ваше имя</div>
+								<input class="w-full font-light rounded-3xl border border-gray2 px-5 h-10" type="text" placeholder="Введите Ваше имя">
+							</div>
+							<div class="w-full">
+								<div class="font-light mb-1">Ваш телефон</div>
+								<input class="w-full font-light rounded-3xl border border-gray2 px-5 h-10" type="text" placeholder="Введите Ваш телефон">
+							</div>
+							<div class="w-full self-end">
+								<button type="submit" class="w-full bg-black-light px-4 h-10 text-white rounded-3xl sm:rounded-[2.5rem] font-light text-sm mx-auto block">Оставить заявку</button>
+							</div>
+						</div>
+						<div class="mt-4 font-light">Нажимая кнопку вы даете согласие на обработку персональных данных в соответствии с политикой конфиденциальности</div>
+					</form>
+				</div>
+
+			</div>
+
+<!-- FOOTER -->
+			<div class="max-w-screen-xl mx-auto w-full">
+				<div class="flex flex-col md:flex-row text-white gap-8">
+					<div class="md:w-3/12 mb-6 md:mb-0">
+						<img class="w-48" src="./img/logo-w.png" alt="">
+					</div>
+					<div class="md:w-3/12 flex flex-col gap-2">
+						<p class="mb-4 text-xl">Education</p>
+						<a class="font-light" href="">Курс по безопасности</a>
+						<a class="font-light" href="">Базовый курс</a>
+						<a class="font-light" href="">Продвинутый курс</a>
+						<a class="font-light" href="">DeFi</a>
+						<a class="font-light" href="">Корпоративные программы</a>
+					</div>
+					<div class="md:w-2/12 flex flex-col gap-2">
+						<p class="mb-4 text-xl">Research</p>
+						<a class="font-light" href="">EVM</a>
+						<a class="font-light" href="">Cosmos</a>
+						<a class="font-light" href="">Non-EVM</a>
+						<a class="font-light" href="">Airdrops</a>
+					</div>
+					<div class="md:w-3/12 flex flex-col gap-2">
+						<p class="mb-4 text-xl">Labs</p>
+						<a class="font-light" href="">Консультации</a>
+						<a class="font-light" href="">Разработка на заказ</a>
+						<a class="font-light" href="">Поддержка инфраструктуры</a>
+					</div>
+					<div class="md:w-2/12 flex flex-col gap-2">
+						<p class="mb-2 text-2xl w-40">Следи за нами в соцсетях</p>
+						<div class="flex gap-4">
+							<a class="w-10" href=""><img src="./img/soc1.png" alt=""></a>
+							<a class="w-10" href=""><img src="./img/soc2.png" alt=""></a>
+							<a class="w-10" href=""><img src="./img/soc3.png" alt=""></a>
+							<a class="w-10" href=""><img src="./img/soc4.png" alt=""></a>
+						</div>
+					</div>
+				</div>
+				<div class="flex border-t border-[#444444] mt-10 mb-4 pt-4 text-[#8D8D8D] font-light">
+					<div class=" w-full">d5Lab © 2023</div>
+					<div class="ml-0 w-full text-right">Сайт создан - wtstudio.ru</div>
 				</div>
 			</div>
 		</div>

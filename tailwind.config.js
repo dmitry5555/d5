@@ -26,6 +26,7 @@ module.exports = {
 			'gray3': '#DDE9F5', // lab bg
 			'gray4': '#EFEFF3', // lab bg
 			'gray5': '#3C3E3F',
+			'gray6': '#ECECEC',
 			'green': '#C9F87D', // hightlight
 			'orange': '#FF9F0A',
 			'orange2': '#F98A07',
