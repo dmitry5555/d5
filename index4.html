@@ -59,49 +59,59 @@
 
 <!-- БЛОГ ДЕСКТОП -->
 
-		<div class=" mx-auto max-w-screen-xl md:block hidden">
+		<div class=" mx-auto max-w-screen-xl my-12">
+			<div class="mb-4 font-light text-sm text-black z-10">
+				Главная /
+				<div class="text-blue inline">Блог</div>
+				<!-- <span class="text-white ml-2">Базовый курс по работе с криптоактивами и технологией блокчейн</span> -->
+			</div>
+
 			<div class="font-bold text-2xl sm:text-3xl mb-10 lg:text-3xl lg:mb-12">Блог</div>
+			
 
 			<div class="flex flex-row mx-auto mb-32">
-				<!-- СТРЕЛКА -->
-				<div class="w-48 flex my-auto">
-					<div class="bg-gray ml-0 my-auto rounded-3xl w-10 h-10 pt-2 text-black mx-auto flex pl-2">
+				<!-- СТРЕЛКА DESKTOP -->
+				<div class="w-48 my-auto hidden md:flex">
+					<div class="bg-gray6 ml-0 my-auto rounded-3xl w-10 h-10 pt-2 text-black mx-auto flex pl-2">
 						<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
 						<path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
 						</svg>
 					</div>
 				</div>
 				<!-- СТАТЬЯ -->
-				<div class="w-full flex gap-3 px-2 py-4 flex-wrap bg-[url('../img/im2.jpeg')] bg-cover rounded-3xl">
-					<div class="px-4 py-1 h-7 bg-white rounded-2xl text-sm font-thin">Криптовалюта</div>
-					<div class="px-4 py-1 h-7 bg-white rounded-2xl text-sm font-thin">Технологии</div>
-				</div>
-				<div class="p-5 w-full flex flex-col">
-					<div class="flex text-sm font-light">
-						<div class="w-9/12 "><span class="mr-1 text-gray2">Автор</span> Анастасия Смольнецкая</div>
-						<div class="w-3/12 self-end text-right"> 13.09.23</div>
+				<div class="flex flex-col md:flex-row bg-white md:bg-inherit rounded-3xl">
+					<div class="w-full flex gap-3 px-4 py-4 flex-wrap bg-[url('../img/im2.jpeg')] bg-cover md:rounded-3xl rounded-t-3xl min-h-48">
+						<div class="px-4 py-1 h-7 bg-white rounded-2xl text-sm font-thin">Криптовалюта</div>
+						<div class="px-4 py-1 h-7 bg-white rounded-2xl text-sm font-thin">Технологии</div>
 					</div>
-					<div class="my-3 text-md md:text-xl">Как использовать аналитику и данные блокчейна для достижения финансовой стабильности?</div>
-					<div class="text-sm font-light mb-4 text-gray2">В этой статье мы разберем как можно использовать аналитику и данные блокчейна, как можно зарабатывать больше используя те же принципы, но другой подход</div>
-					<a href="" class="font-light flex text-blue text-sm md:text-base w-32"> Читать статью
-						<div class="ml-2 "><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-	<path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" /></svg></div>
-					</a>
+					<div class="p-5 w-full flex flex-col">
+						<div class="flex text-sm font-light">
+							<div class="w-9/12 "><span class="mr-1 text-gray2">Автор</span> Анастасия Смольнецкая</div>
+							<div class="w-3/12 self-end text-right"> 13.09.23</div>
+						</div>
+						<div class="my-3 text-md md:text-xl">Как использовать аналитику и данные блокчейна для достижения финансовой стабильности?</div>
+						<div class="text-sm font-light mb-6 text-gray2">В этой статье мы разберем как можно использовать аналитику и данные блокчейна, как можно зарабатывать больше используя те же принципы, но другой подход</div>
+						<a href="" class="font-light flex text-blue text-sm w-32"> Читать статью
+							<div class="ml-2 -mt-[1px]"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+		<path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" /></svg></div>
+						</a>
+					</div>
 				</div>
-				<!-- СТРЕЛКА -->
-				<div class="w-48 flex my-auto">
-					<div class="bg-gray  mr-0 rounded-3xl w-10 h-10 pt-2 text-black mx-auto flex pl-2">
+				<!-- СТРЕЛКА DESKTOP -->
+				<div class="w-48 my-auto hidden md:flex">
+					<div class="bg-gray6  mr-0 rounded-3xl w-10 h-10 pt-2 text-black mx-auto flex pl-2">
 						<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
 						<path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
 						</svg>
 					</div>
 				</div>
-
 			</div>
+
+
+
 		</div>
 
 <!-- БЛОГ МОБАЙЛ -->
-
 
 		<div class="mx-auto max-w-screen-xl mb-16 md:hidden flex flex-col">
 
@@ -146,25 +156,23 @@
 
 <!-- БЛОГ ТЕГИ / ПОИСК -->
 
-		<div class="mx-auto max-w-screen-xl md:hidden bg-red">
-			<div class="flex overflow-scroll bg-white gap-3 font-light rounded-3xl p-5 mb-4 text-sm">
-
+		<div class="mx-auto max-w-screen-xl md:hidden bg-red ">
+			<div class="flex overflow-scroll bg-white gap-3 font-light rounded-3xl p-3 mb-4 text-sm">
 				<div class="bg-gray-light w-full rounded-3xl px-5 py-2 whitespace-nowrap flex-row flex">
-					<input class="bg-gray-light focus:outline-0" placeholder="Поиск" type="text">
-					<button class="ml-auto opacity-50 flex h-2">
+					<input class="bg-gray-light focus:outline-0 flex w-full text-base" placeholder="Поиск" type="text">
+					<button class="ml-auto opacity-50 flex h-4">
 						<svg class="h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
 							<path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
 						</svg>
 					</button>
 				</div>
-
 			</div>
 		</div>
 
 		<div class=" mx-auto max-w-screen-xl">
 
 			<div class="flex flex-col gap-4 ">
-				<div class="flex flex-row overflow-scroll bg-white gap-3 font-light rounded-3xl p-5 mb-4 text-sm">
+				<div class="flex flex-row overflow-scroll bg-white gap-3  font-light rounded-3xl p-3 mb-4 text-base mx-auto max-w-full md:mb-12">
 					<div class="bg-gray-light rounded-3xl px-5 py-2 whitespace-nowrap">Все</div>
 					<div class="bg-blue text-white rounded-3xl px-5 py-2 whitespace-nowrap">Новости</div>
 					<div class="bg-gray-light rounded-3xl px-5 py-2 whitespace-nowrap">Криптовалюта</div>
@@ -172,8 +180,8 @@
 					<div class="bg-gray-light rounded-3xl px-5 py-2 whitespace-nowrap">Аналитика</div>
 					<div class="bg-gray-light rounded-3xl px-5 py-2 whitespace-nowrap">Курс по безопасности</div>
 					<div class="bg-gray-light rounded-3xl px-5 py-2 whitespace-nowrap flex-row md:flex hidden">
-						<input class="bg-gray-light focus:outline-0" placeholder="Поиск" type="text">
-						<button class="ml-auto opacity-50 flex h-2">
+						<input class="bg-gray-light focus:outline-0 flex w-full" placeholder="Поиск" type="text">
+						<button class="ml-auto opacity-50 flex h-4">
 							<svg class="h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
 								<path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
 							</svg>
@@ -270,21 +278,74 @@
 
 				</div>
 			</div>
+
+	
+		</div>
+		
+		<!-- НАШИ ПРЕПОДАВАТЕЛИ -->
+		<div class="flex flex-col mx-auto gap-4 text-white max-w-screen-xl my-10 md:my-24">
+
+			<div class="rounded-3xl bg-blue2 p-4 flex flex-col md:flex-row md:p-8">
+
+				<div class="md:w-2/3 md:p-4">
+					<div class="text-2xl text-center mb-8 md:text-left md:text-3xl">Наши преподаватели </div>
+					<div class="text-sm font-light mb-8 md:text-xl">Учится лучшего всего у практиков. Тут текст про то какие крутые преподаватели. Я работаю лектором 4 года. В первый год чтение лекций было моей страстью, позже — дополнительным заработком, в последние 2 года лекции приносят мне 80% дохода. За свою жизнь я провела около 200 лекций, где в зале были от 5 до 450 человек (такое было дважды, в Москве и в Калининграде). </div>
+				</div>
+
+				<div class="flex flex-col my-4 mx-4 md:w-1/3 rounded-2xl ">
+					<div class="w-full   flex flex-col  mb-6 overflow-hidden rounded-2xl">
+						<div class="h-28 md:h-40 text-center  "><img class="" src="./img/photo.png" alt=""></div>
+						<div class="py-3 bg-white text-black text-center rounded-2xl">
+							<div class="text-xl mb-2">Максимов Павел</div>
+							<div class="text-sm text-gray2 font-light px-4">Специалист по блокчейн-технологиям</div>
+						</div>
+					</div>
+
+					<div class="mx-auto  grid grid-flow-col text-center gap-6">
+						<div class="mx-auto">
+							<div class="bg-white rounded-3xl w-10 h-10 pt-2 text-black pl-2">
+								<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+									<path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
+								</svg>
+							</div>
+						</div>
+						<div class="mx-auto">
+							<div class="bg-white rounded-3xl w-10 h-10 pt-2 pl-2 text-black">
+								<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+									<path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+								</svg>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
 		</div>
 
+	
+		<!-- Свяжитесь с нами -->
+		<div class=" flex flex-col md:flex-row mx-auto max-w-screen-xl rounded-3xl my-16 md:my-36">
+			<div class="flex flex-col bg-blue-light2 rounded-t-3xl md:rounded-l-3xl md:rounded-r-none p-8 md:p-10 pb-16 md:mb-12 md:w-3/5">
+				<div class="md:my-auto text-center md:text-left">
+					<div class="text-3xl pb-6 md:pb-12">
+						Свяжитесь с нами
+					</div>
+					<div class="font-thin md:text-xl lg:pr-12">
+						Технологический ландшафт web3 постоянно меняется. Мы находим наиболее интересные и технологичные проекты в пространстве, изучаем их и делимся результатами с вами.
+		Если у вы разрабатываете интересный технологический проект в области web3, свяжитесь с нами для публикации.
+					</div>
+				</div>
+			</div>
 
-<!-- FOOTER -->
-
-		<div class="bg-black-light -mx-4 flex flex-col px-4">
-
-			<div class="mx-auto max-w-screen-xl ">
-				<div class="max-w-4xl mx-auto rounded-3xl bg-white sm:rounded-[2.5rem] p-8 mt-10 md:mt-20 mb-20">
-					<div class="text-2xl font-bold sm:text-3xl mb-2 text-center sm:text-left">
+			<div class="md:w-2/5">
+				<div class="max-w-4xl mx-auto rounded-3xl bg-white border border-black-light sm:rounded-[2.5rem] p-8 -mt-8">
+					<div class="text-2xl font-bold md:text-3xl mb-2 text-center md:text-left">
 						Хотите работать с нами? Хотите обучаться у нас?
 					</div>
-					<div class="text-sm md:text-base mb-4 ">Оставьте свои контакты и мы бесплатно проконсультируем вас по любому вопросу в течении рабочего дня</div>
+					<div class="text-sm md:text-base mb-4 text-center md:text-left">Оставьте свои контакты и мы бесплатно проконсультируем вас по любому вопросу в течении рабочего дня</div>
 					<form action="" class="">
-						<div class="flex flex-col sm:flex-row gap-4">
+						<div class="flex flex-col gap-4">
 							<div class="w-full">
 								<div class="font-light mb-1">Ваше имя</div>
 								<input class="w-full font-light rounded-3xl border border-gray2 px-5 h-10" type="text" placeholder="Введите Ваше имя">
@@ -299,6 +360,23 @@
 						</div>
 						<div class="mt-4 font-light">Нажимая кнопку вы даете согласие на обработку персональных данных в соответствии с политикой конфиденциальности</div>
 					</form>
+				</div>
+
+			</div>
+		</div>
+
+
+
+
+
+
+<!-- FOOTER -->
+
+		<div class="bg-black-light -mx-4 flex flex-col px-4">
+
+			<div class="mx-auto max-w-screen-xl ">
+				<div class="max-w-4xl mx-auto p-8 mt-10 md:mt-20 mb-20">
+				
 				</div>
 			</div>
 
@@ -346,26 +424,6 @@
 		</div>
 	</div>
 
-	<script>
-		const toggleButton = document.querySelector('.top-menu-toggle');
-		const targetDiv = document.querySelector('.top-menu-modal');
-
-		toggleButton.addEventListener('click', () => {
-		targetDiv.classList.toggle('hidden');
-		targetDiv.classList.toggle('flex');
-		});
-
-	</script>
-<script>
-  function reloadOnWindowFocus() {
-    // Reload the page
-    location.reload();
-  }
-
-  // Add event listener for window focus
-  window.addEventListener("focus", reloadOnWindowFocus);
-
-  </script>
 
 </body>
 </html>
