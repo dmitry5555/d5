@@ -28,6 +28,7 @@ module.exports = {
 			'gray5': '#3C3E3F',
 			'gray6': '#ECECEC',
 			'green': '#C9F87D', // hightlight
+			'green2': '#AEFF91',
 			'orange': '#FF9F0A',
 			'orange2': '#F98A07',
 		},
